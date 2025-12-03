@@ -4,7 +4,6 @@ on: [push]
 
 jobs:
   deploy-on-ec2:
-    # YEH HAI CHANGE: Hum 'ubuntu-latest' nahi, balkay apna runner use karenge
     runs-on: self-hosted
 
     steps:
